@@ -1,0 +1,17 @@
+name: gh_tools
+# This package is not intended for consumption on pub.dev. DO NOT publish.
+publish_to: none
+
+description: >-
+  Dart tools for exploring projects hosted on Github.
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  args: ^2.1.0
+  github: ^9.0.0
+
+dev_dependencies:
+  http: ">=0.13.0 <2.0.0"
+  lints: ^2.0.0
